@@ -11,7 +11,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 300px auto 0 calc(((100% - 1140px) / 2)  + 475px);
+  margin: 300px auto 0 calc(((100% - 1140px) / 2)  + 490px);
 }
 
 .u-section-1 .u-text-2 {
@@ -68,7 +68,7 @@
   }
 
   .u-section-1 .u-text-1 {
-    margin-left: 49px;
+    margin-left: calc(((100% - 340px) / 2)  + 90px);
     margin-right: 49px;
   }
 }
@@ -79,15 +79,15 @@
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 3.75rem;
+    font-size: 5rem;
     margin-top: 302px;
     margin-right: 40px;
-    margin-left: calc(((100% - 340px) / 2)  + 12px);
+    margin-left: calc(((100% - 340px) / 2)  + 100px);
   }
 
   .u-section-1 .u-text-2 {
     margin-top: 34px;
-    margin-left: 27px;
+    margin-left: 110px;
     margin-right: 27px;
   }
 } .u-section-2 {

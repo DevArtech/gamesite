@@ -22,13 +22,11 @@
 
 .u-section-1 .u-custom-html-1 {
   min-height: 677px;
-  height: auto;
   width: 642px;
   margin: 150px auto 0;
 }
 
 .u-section-1 .u-custom-html-2 {
-  height: auto;
   min-height: 677px;
   width: 440px;
   margin: 0;
@@ -44,6 +42,14 @@
 @media (max-width: 1199px) {
   .u-section-1 .u-image-1 {
     filter: brightness(0.5);
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-custom-html-2 {
+    height: auto;
   }
 }
 

@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('images/Screenshot_5-28-2022_4-05-49_PM-1.png');
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/Screenshot_5-28-2022_4-05-49_PM-1.png");
   min-height: 880px;
 }
 
@@ -210,7 +210,6 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  height: auto;
   margin: -134px auto 60px;
 }
 
@@ -254,12 +253,6 @@
   height: 117px;
   background-image: linear-gradient(45deg, #4d0700, #180202);
   margin: -296px auto 188px -47px;
-}
-
-@media (max-width: 1199px) {
-  .u-section-2 .u-group-1 {
-    height: auto;
-  }
 }
 
 @media (max-width: 991px) {
@@ -365,7 +358,7 @@
 .u-container-layout.hover .u-block-28a4-12:not([data-block-selected]):not([data-cell-selected]) {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 } .u-section-3 {
-  background-image: linear-gradient(0deg, rgba(24,2,2,0.75), rgba(24,2,2,0.75)), url('images/C2.png');
+  background-image: linear-gradient(0deg, rgba(24,2,2,0.75), rgba(24,2,2,0.75)), url("images/C2.png");
   min-height: 1081px;
 }
 
@@ -778,7 +771,7 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 757px;
+    min-height: 1128px;
   }
 
   .u-section-3 .u-text-1 {
@@ -801,11 +794,17 @@
   }
 
   .u-section-3 .u-repeater-1 {
+    min-height: 810px;
     grid-auto-columns: 100%;
   }
 
   .u-section-3 .u-shape-4 {
+    margin-top: -49px;
     margin-right: calc(((100% - 340px) / 2) + 42px);
+  }
+
+  .u-section-3 .u-shape-5 {
+    margin-top: -90px;
   }
 }
 
@@ -1099,15 +1098,32 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 416px;
+    min-height: 919px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 282px;
   }
 
   .u-section-4 .u-layout-cell-2 {
-    min-height: 371px;
+    min-height: 480px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .u-section-4 .u-text-1 {
     width: auto;
+    margin-top: 0;
+    margin-right: 147px;
+    margin-left: 10px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 

@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Screenshot_5-28-2022_4-05-49_PM-1.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/Screenshot_5-28-2022_4-05-49_PM-1.png');
   min-height: 861px;
 }
 
@@ -160,6 +160,7 @@
 @media (max-width: 575px) {
    .u-section-1 {
     min-height: 973px;
+    background-position: 50% 50%;
   }
 
   .u-section-1 .u-layout-wrap-1 {
@@ -869,6 +870,7 @@
 }
 
 .u-section-3 .u-text-2 {
+  font-size: 1.25rem;
   margin: 36px 0 0;
 }
 
@@ -889,10 +891,6 @@
 
   .u-section-3 .u-text-1 {
     width: 478px;
-  }
-
-  .u-section-3 .u-text-2 {
-    font-size: 1.25rem;
   }
 }
 

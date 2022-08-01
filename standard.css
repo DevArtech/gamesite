@@ -38674,12 +38674,8 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
-.u-header .u-text-1 {
-  margin: -50px auto 0 0;
-}
-
 .u-header .u-menu-1 {
-  margin: -36px 0 36px auto;
+  margin: -51px 15px 0 auto;
 }
 
 .u-header .u-nav-1 {
@@ -38704,55 +38700,66 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: linear-gradient(225deg, #4d0700, #180202);
   margin: 1067px 70px -633px auto;
 }
+
+.u-header .u-text-1 {
+  margin: -37px auto 38px 15px;
+}
 @media (max-width: 1199px) {
-   .u-header {
-    min-height: 112px;
+  .u-header .u-image-1 {
+    width: 64px;
   }
 
-  .u-header .u-text-1 {
-    margin-top: -50px;
+  .u-header .u-menu-1 {
+    margin-top: -51px;
   }
 
   .u-header .u-nav-2 {
     width: 120px;
     margin-left: 0;
   }
-}
 
-@media (max-width: 767px) {
-  .u-header .u-sheet-1 {
-    min-height: 124px;
+  .u-header .u-text-1 {
+    margin-top: -37px;
   }
-
+}
+@media (max-width: 991px) {
   .u-header .u-image-1 {
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 0;
   }
 
   .u-header .u-menu-1 {
-    margin-top: -42px;
-  }
-}
-@media (max-width: 575px) {
-  .u-header .u-sheet-1 {
-    min-height: 132px;
-  }
-
-  .u-header .u-image-1 {
-    margin-top: 34px;
-    margin-left: 0;
+    margin-bottom: 39px;
   }
 
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -49px;
-    margin-left: calc(((100% - 340px) / 2)  + -26px);
+    margin-top: -35px;
+    margin-left: 12px;
   }
-
+}
+@media (max-width: 767px) {
   .u-header .u-menu-1 {
     width: auto;
     margin-top: -50px;
-    margin-bottom: 48px;
+    margin-right: 0;
+    margin-bottom: 38px;
+  }
+
+  .u-header .u-nav-2 {
+    margin-top: 18px;
+    margin-right: 130px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -322px;
+    margin-bottom: 60px;
+    margin-left: calc(((100% - 540px) / 2) + 15px);
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-top: -47px;
+    margin-bottom: 35px;
   }
 
   .u-header .u-nav-2 {
@@ -38763,6 +38770,11 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-shape-1 {
     margin-top: 1027px;
     margin-bottom: -537px;
+  }
+
+  .u-header .u-text-1 {
+    margin-top: -318px;
+    margin-left: calc(((100% - 340px) / 2)  + -26px);
   }
 }
 .u-header .u-image-1, .u-header .u-image-1:before, .u-header .u-image-1 > .u-container-layout:before {

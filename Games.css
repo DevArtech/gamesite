@@ -110,7 +110,7 @@
 
 @media (max-width: 575px) {
    .u-section-1-1 {
-    height: 900px;
+    min-height: 900px;
   }
 
   .u-section-1-1 .u-text-1 {
@@ -131,9 +131,9 @@
 }
 
 .u-section-1-1 .u-text-1 {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 700;
-  margin: 323px auto 0;
+  margin: 300px auto 0;
 }
 
 .u-section-1-2 .u-text-1 {
